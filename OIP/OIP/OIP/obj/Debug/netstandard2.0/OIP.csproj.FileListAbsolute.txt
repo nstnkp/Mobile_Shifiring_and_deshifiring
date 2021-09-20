@@ -1,0 +1,16 @@
+C:\Users\artik\source\repos\OIP\OIP\OIP\bin\Debug\netstandard2.0\OIP.deps.json
+C:\Users\artik\source\repos\OIP\OIP\OIP\bin\Debug\netstandard2.0\OIP.dll
+C:\Users\artik\source\repos\OIP\OIP\OIP\bin\Debug\netstandard2.0\ref\OIP.dll
+C:\Users\artik\source\repos\OIP\OIP\OIP\bin\Debug\netstandard2.0\OIP.pdb
+C:\Users\artik\source\repos\OIP\OIP\OIP\obj\Debug\netstandard2.0\OIP.csprojAssemblyReference.cache
+C:\Users\artik\source\repos\OIP\OIP\OIP\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\artik\source\repos\OIP\OIP\OIP\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\artik\source\repos\OIP\OIP\OIP\obj\Debug\netstandard2.0\Second.xaml.g.cs
+C:\Users\artik\source\repos\OIP\OIP\OIP\obj\Debug\netstandard2.0\OIP.AssemblyInfoInputs.cache
+C:\Users\artik\source\repos\OIP\OIP\OIP\obj\Debug\netstandard2.0\OIP.AssemblyInfo.cs
+C:\Users\artik\source\repos\OIP\OIP\OIP\obj\Debug\netstandard2.0\OIP.csproj.CoreCompileInputs.cache
+C:\Users\artik\source\repos\OIP\OIP\OIP\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\artik\source\repos\OIP\OIP\OIP\obj\Debug\netstandard2.0\OIP.dll
+C:\Users\artik\source\repos\OIP\OIP\OIP\obj\Debug\netstandard2.0\ref\OIP.dll
+C:\Users\artik\source\repos\OIP\OIP\OIP\obj\Debug\netstandard2.0\OIP.pdb
+C:\Users\artik\source\repos\OIP\OIP\OIP\obj\Debug\netstandard2.0\First.xaml.g.cs

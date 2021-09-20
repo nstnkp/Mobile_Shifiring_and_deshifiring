@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OIP.First">
+
+    <Frame BackgroundColor="Pink" x:Name="Main">
+
+        <StackLayout VerticalOptions="Center" >
+
+            <Button Text="Начать" BackgroundColor="SkyBlue"  HeightRequest="50" WidthRequest="23" x:Name="start" VerticalOptions="Center" Clicked="start_Clicked"></Button>
+            <Button Text="Информация"  BackgroundColor="SkyBlue" x:Name="faq" VerticalOptions="Center" Clicked="faq_Clicked"></Button>
+            <Switch HorizontalOptions="EndAndExpand" VerticalOptions="Center" x:Name="Swither" IsToggled="False" OnColor="Red" ></Switch>
+        </StackLayout>
+        
+    </Frame>
+    
+    
+</ContentPage>

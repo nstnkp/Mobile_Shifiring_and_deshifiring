@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             
+             x:Class="OIP.Second" BarBackgroundColor="Pink" x:Name="Tab" BarTextColor="Black">
+  
+    <ContentPage Title="Шифратор" BackgroundColor="Pink" x:Name="shifr">
+
+        <Frame BackgroundColor="Pink" x:Name="Main">
+            <ScrollView>
+
+                <StackLayout>
+                    
+                    <input:CheckBox Text="Ришелье" x:Name="shifiring_first"    CheckChanged="shifiring_first_CheckChanged" ></input:CheckBox>
+                    <input:CheckBox Text="Виженер" x:Name="shifiring_second"  CheckChanged="shifiring_second_CheckChanged"></input:CheckBox>
+                    <input:CheckBox Text="RSA" x:Name="shifiring_thi" CheckChanged="shifiring_thi_CheckChanged"></input:CheckBox>
+                    <Label x:Name="shifiring_text_l" Text="Text desh:" FontSize="15" IsVisible="false"></Label>
+                    <Entry x:Name="shifiring_text" FontSize="30" IsVisible="false" IsTextPredictionEnabled="True" ></Entry>
+                    <Label x:Name="shifiring_key_l" Text="Key" FontSize="15" IsVisible="false"></Label>
+                    <Entry x:Name="shifiring_key" IsVisible="false"></Entry>
+                    <Button x:Name="but" Text="Шифровать" Clicked="Button_Clicked"></Button>
+                    <Label Text="Криптограмма" x:Name="LABEL_kript" TextColor="Black"></Label>
+                    <Entry x:Name="shifiring_kript" IsReadOnly="True" Keyboard="Text"/>
+                    <Label Text="Ключ" x:Name="LABEL_key" TextColor="Black"></Label>
+                    <Entry x:Name="shifiring_keys" IsReadOnly="True"></Entry>
+                </StackLayout>
+            </ScrollView>
+        </Frame>
+        
+    </ContentPage>
+
+
+    <ContentPage Title="Дешифратор" BackgroundColor="Pink" x:Name="deshifr">
+
+        <Frame BackgroundColor="Pink" x:Name="Main2">
+            <ScrollView>
+
+                <StackLayout>
+                    
+                
+                  <input:CheckBox Text="Ришелье" x:Name="des_first"   CheckChanged="des_first_CheckChanged"  ></input:CheckBox>
+                   <input:CheckBox Text="Виженер" x:Name="des_second"   CheckChanged="des_second_CheckChanged" ></input:CheckBox>
+                    <input:CheckBox Text="RSA" x:Name="des_thi"  CheckChanged="des_thi_CheckChanged" ></input:CheckBox>
+                    <Label x:Name="des_text_l" Text="Text desh:" FontSize="15" IsVisible="false"></Label>
+                    <Entry x:Name="des_text" FontSize="30" IsVisible="false" IsTextPredictionEnabled="True" ></Entry>
+                    <Label x:Name="des_key_l" Text="Key" FontSize="15" IsVisible="false"></Label>
+                    <Label x:Name="des_D" Text="D:" IsVisible="false"></Label>
+                    <Entry x:Name="des_key" IsVisible="false"></Entry>
+                    <Label x:Name="des_N" Text="N:" IsVisible="false"></Label>
+                    <Entry x:Name="des_key2" IsVisible="false" ></Entry>
+                    <Button Text="Расшифровать" x:Name="des_but" Clicked="des_but_Clicked"></Button>
+                    <Label Text="Криптограмма" x:Name="des_kript" TextColor="Black"></Label>
+                    <Entry x:Name="Kript" IsReadOnly="True"></Entry>
+
+                </StackLayout>
+            </ScrollView>
+        </Frame>
+        
+        
+    </ContentPage>
+  
+</TabbedPage>

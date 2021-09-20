@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OIP.MainPage">
+
+
+
+    <Frame BackgroundColor="Black" x:Name="Main">
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+
+                <RowDefinition Height="14"></RowDefinition>
+                <RowDefinition Height="20"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="90"></ColumnDefinition>
+                <ColumnDefinition Width="14"></ColumnDefinition>
+                <ColumnDefinition Width="15"></ColumnDefinition>
+                <ColumnDefinition Width="14"></ColumnDefinition>
+                <ColumnDefinition Width="15"></ColumnDefinition>
+                <ColumnDefinition Width="14"></ColumnDefinition>
+                <ColumnDefinition Width="15"></ColumnDefinition>
+                <ColumnDefinition Width="14"></ColumnDefinition>
+                <ColumnDefinition Width="90"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="name1" Text="Шифрование" Grid.Row="0" TextColor="Pink" FontSize="40"  Grid.ColumnSpan="9" HorizontalOptions="Center"></Label>
+            <Label x:Name="text" Text="Iwlefmlkwemfklwjefklwjklefjwkljefjwefkljwklefjlwjfejlwjefl" TextColor="Pink" Grid.Row="0" Grid.ColumnSpan="9" VerticalOptions="Center"></Label>
+            <Button TextColor="Black" Text="Назад" HorizontalOptions="Start" VerticalOptions="Start" BackgroundColor="Transparent" FontSize="14" Clicked="Button_Clicked_2" TextTransform="Default" Grid.Row="1" Grid.RowSpan="2" Grid.Column="0"></Button>
+            <Button BackgroundColor="Black" x:Name="first" Clicked="first_Clicked" BorderRadius="20" WidthRequest="10" Grid.Row="1" Grid.Column="1"></Button>
+            <Button BackgroundColor="Black" x:Name="second" Clicked="second_Clicked" BorderRadius="20"  Grid.Row="1" Grid.Column="3"></Button>
+            <Button BackgroundColor="Black" x:Name="thi" Clicked="thi_Clicked" BorderRadius="20" Grid.Row="1" Grid.Column="5"></Button>
+            <Button BackgroundColor="Black" x:Name="four" Clicked="four_Clicked" BorderRadius="20" Grid.Row="1" Grid.Column="7"></Button>
+            <Button TextColor="Black" x:Name="op" Text="Вперед" BackgroundColor="Transparent" FontSize="14" TextTransform="Default" Clicked="Button_Clicked_1" Grid.Row="1" Grid.RowSpan="2" Grid.Column="8"></Button>
+
+            
+            
+        </Grid>
+
+    </Frame>
+
+</ContentPage>
